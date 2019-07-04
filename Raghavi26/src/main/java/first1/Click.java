@@ -18,6 +18,8 @@ public class Click {
 		
 		Thread.sleep(2000);
 		System.out.println("chiti");
+		System.out.println("latha");
+
 		driver.findElement(By.xpath("//input[@id='LoginForm_username']")).sendKeys("raghavilathaa");
 	    driver.findElement(By.xpath("//input[@id='LoginForm_password']")).sendKeys("raghavi2696");
 	    driver.findElement(By.xpath("//input[@name='yt0']")).click();
