@@ -17,10 +17,12 @@ public class Click {
 		driver.get(baseurl);
 		
 		Thread.sleep(2000);
+		System.out.println("chiti");
 		driver.findElement(By.xpath("//input[@id='LoginForm_username']")).sendKeys("raghavilathaa");
 	    driver.findElement(By.xpath("//input[@id='LoginForm_password']")).sendKeys("raghavi2696");
 	    driver.findElement(By.xpath("//input[@name='yt0']")).click();
 		Thread.sleep(2000);
+		
 
 		Actions actions =new Actions(driver);
 		WebElement mainMenu = driver.findElement(By.linkText("Timecard"));
